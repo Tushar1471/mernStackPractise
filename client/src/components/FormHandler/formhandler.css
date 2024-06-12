@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#createForm>h1 {
+    text-align: center;
+}
+
+form {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+form>input {
+    width: 30%;
+    height: 50px;
+    margin-top: 5px;
+    font-size: inherit;
+    text-indent: 5px;
+}
+
+form>button {
+    width: 10%;
+    height: 50px;
+}
